@@ -19,3 +19,10 @@ a{
 ul li{
   list-style: none;
 }
+.home{
+  background-color: cornflowerblue;
+  height: 87vh;
+}
+footer{
+  text-align: center;
+}

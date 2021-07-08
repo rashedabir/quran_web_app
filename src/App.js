@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SurahHome from "./components/SurahHome";
 import SurahDetail from "./components/SurahDetail";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route exact path="/" component={SurahHome} />
           <Route exact path="/surah/:id" component={SurahDetail} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

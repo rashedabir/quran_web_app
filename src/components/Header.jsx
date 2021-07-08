@@ -6,7 +6,7 @@ function Header() {
     <div>
       <header className="bg-light p-3 text-capitalize fixed-header">
         <h3>
-          <Link to="/">english quran</Link>
+          <Link to="/">quran app</Link>
         </h3>
       </header>
     </div>
